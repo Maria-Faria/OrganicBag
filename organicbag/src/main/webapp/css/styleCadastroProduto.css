@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: rgba(143, 167, 147, 0.96);
+    font-family: 'Poppins', sans-serif;
+}
+
+.box {
+    width: 80%;
+    max-width: 624px;
+    height: auto; /* Use altura automática em telas menores */
+    border-radius: 20px;
+    background-color: rgba(244, 246, 240, 0.95);
+    box-shadow: 0px 3px 8px 0px #5B7860;
+    display: flex;
+    flex-direction: column;
+}
+
+.formInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.items {
+    display: flex;
+}
+
+h1 {
+    margin-top: 0;
+    color: #003817;
+    background: none;
+    font-size: 36px; /* Reduzir o tamanho da fonte para telas menores */
+    padding: 20px; /* Reduzir o preenchimento para telas menores */
+}
+
+input{
+    margin-top: 18px;
+    margin-bottom: 30px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgba(244, 246, 240, 0.95);
+    border-bottom: 2px solid;
+}
+
+.input-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.input-info.name {
+    margin-left: 10%;
+}
+
+.input-info.qtd {
+    margin-left: 10%;
+}
+
+.items.desc input {
+    width: 500px;
+    height: 100px;
+    background: white;
+    border-bottom: none;
+    border: #003817 solid 1px;
+    border-radius: 5px;
+}
+
+#save {
+    color: #E8EBE3;
+    width: 243px;
+    height: 42px;
+    border-radius: 30px;
+    background-color: rgba(143, 167, 147, 0.96);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px black;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-top: -3px;
+}
+
+.imagesProduct {
+    border-bottom: none;
+    margin-left: 3%;
+}
+
+.sendProduct {
+    display: flex;
+}

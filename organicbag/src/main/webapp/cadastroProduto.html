@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar produto - TESTE</title>
+    <link rel="stylesheet" type="text/css" href="css/styleCadastroProduto.css">
+</head>
+<body>
+
+    <div class="box">
+        <h1>Cadastro de produto</h1>
+
+        <form action="newProduct" method="post" class="formInfo" enctype="multipart/form-data" accept-charset="UTF-8">
+            <div class="items">
+                <div class="input-info">
+                    <label>Código do produto</label>
+                    <input type="number" name="code">
+                </div>
+
+                <div class="input-info name">
+                    <label for="name">Nome do produto</label>
+                    <input type="text" name="name">
+                </div>
+            </div>
+
+            <div class="items">
+                <div class="input-info">
+                    <label for="price">Preço</label>
+                    <input type="number" name="price" min="0" step="0.01">
+                </div>
+
+                <div class="input-info qtd">
+                    <label for="qtd">Quantidade em estoque</label>
+                    <input type="number" name="qtd">
+                </div>
+            </div>
+
+            <div class="items desc">
+                <div class="input-info">
+                    <label for="desc">Descrição</label>
+                    <input type="text" name="desc">
+                </div>
+
+            </div>
+            
+            <div class="items">
+                <div class="input-info">
+                    <label for="category">Categoria</label>
+                    <input type="text" name="category">
+                </div>
+
+            </div>
+
+            <div class="sendProduct">
+                <input type="file" name="img" id="file" class="imagesProduct">
+
+                <input type="file" name="img2" id="file2" class="imagesProduct">
+    
+            </div>
+            
+            <div class="sendProduct">
+                <input type="file" name="img3" id="file3" class="imagesProduct">
+
+                <input type="file" name="img4" id="file4" class="imagesProduct">
+            </div>
+
+            <input type="submit" value="salvar" id="save">
+        </form>
+    </div>
+
+</body>
+</html>

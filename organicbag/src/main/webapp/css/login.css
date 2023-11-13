@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    background: rgba(143, 167, 147, 0.96);
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden
+}
+
+.box{
+    max-width: 550px;
+    width: 80%;
+    height: 548px;
+    margin-top: 15px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: rgba(244, 246, 240, 0.95);
+    box-shadow: 0px 3px 8px 0px #5B7860;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        height: 80%;
+    }
+
+    .box {
+        width: 87%;
+    }
+
+    
+}
+
+.voltar{
+    margin-top: 31px;
+    margin-right: 44px;
+    text-align: right;
+}
+
+.texto{
+    background: none;
+    color: #012811;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h1{
+    margin-top: 0;
+    color: #003817;
+    background: none;
+    font-size: 68px;
+    padding-left: 48px;
+    padding-right: 317px;
+    /*padding-top: 70px;*/ 
+}
+
+div{
+    background: none;
+}
+
+form{
+    padding: 0px 45px 0px 48px;
+    background: none;
+}
+
+label{
+    background: none;
+}
+
+input{
+    margin-top: 18px;
+    margin-bottom: 30px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgba(244, 246, 240, 0.95);
+    border-bottom: 2px solid;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    color: #E8EBE3;
+    width: 243px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgba(143, 167, 147, 0.96);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-password {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    background: none;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+    color: #012811;
+}
+
+.update-password {
+    font-size: 60px;
+}
+
+#new-form {
+    margin-top: -50px;
+}
+
+.submit input {
+    color: #E8EBE3;
+    width: 243px;
+    height: 42px;
+    border-radius: 30px;
+    background-color: rgba(143, 167, 147, 0.96);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px black;
+    cursor: pointer;
+    margin-top: 0px;
+}
