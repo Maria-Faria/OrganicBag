@@ -1,8 +1,8 @@
 package com.model;
 
 public class User {
-    private long cpf;
-    private String name;
+    private String cpf;
+    private String nome;
     private String email;
     private String phone;
     private String profile;
@@ -12,30 +12,30 @@ public class User {
         super();
     }
 
-    public User(long cpf, String name, String email, String phone, String profile, String password) {
+    public User(String cpf, String nome, String email, String phone, String profile, String password) {
         super();    
         this.cpf = cpf;
-        this.name = name;
+        this.nome = nome;
         this.email = email;
         this.phone = phone;
         this.profile = profile;
         this.password = password;
     }
 
-    public long getCpf() {
+    public String getCpf() {
         return cpf;
     }
 
-    public void setCpf(long cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 
-    public String getName() {
-        return name;
+    public String getNome() {
+        return nome;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public String getEmail() {
